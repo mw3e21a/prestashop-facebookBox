@@ -111,7 +111,7 @@ class FacebookBox extends Module
             $this->postValidation();
             if (!count($this->errors)) {
                 $this->postProcess();
-                    $this->output = $this->displayConfirmation("Success! All data updated.");
+                $this->output = $this->displayConfirmation("Success! All data updated.");
             } else {
                 $this->output = $this->displayError($this->errors);
             }
@@ -350,7 +350,7 @@ class FacebookBox extends Module
 
     public function hookDisplayFooter()
     {
-        if(Configuration::get('FACEBOOKBOX_HOOK_POSITION') == 0){
+        if (Configuration::get('FACEBOOKBOX_HOOK_POSITION') == 0) {
             $this->context->smarty->assign(
                $this->getSmartyVars()
             );
@@ -361,7 +361,7 @@ class FacebookBox extends Module
 
     public function hookDisplayLeftColumn()
     {
-        if(Configuration::get('FACEBOOKBOX_HOOK_POSITION') == 1){
+        if (Configuration::get('FACEBOOKBOX_HOOK_POSITION') == 1) {
             $this->context->smarty->assign(
                 $this->getSmartyVars()
             );
@@ -372,7 +372,7 @@ class FacebookBox extends Module
 
     public function hookDisplayRightColumn()
     {
-        if(Configuration::get('FACEBOOKBOX_HOOK_POSITION') == 2){
+        if (Configuration::get('FACEBOOKBOX_HOOK_POSITION') == 2) {
             $this->context->smarty->assign(
                 $this->getSmartyVars()
             );
