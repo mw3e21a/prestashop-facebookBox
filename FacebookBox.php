@@ -152,7 +152,7 @@ class FacebookBox extends Module
 
     /**
      * Create the structure of the form.
-     */
+     */ 
     protected function getConfigForm()
     {
         return array(
