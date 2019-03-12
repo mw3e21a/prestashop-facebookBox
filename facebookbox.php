@@ -39,9 +39,9 @@ class FacebookBox extends Module
 
     public function __construct()
     {
-        $this->name = 'FacebookBox';
+        $this->name = 'facebookbox';
         $this->tab = 'social_networks';
-        $this->version = '0.6';
+        $this->version = '0.6.0';
         $this->author = 'Michał Wilczyński';
         $this->need_instance = 0;
         $this->mkey = "freelicense";
