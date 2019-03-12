@@ -181,7 +181,7 @@ class FacebookBox extends Module
                 'type' => 'text',
                 'class' => '',
                 'name' => 'FACEBOOKBOX_SECOND_PAGE_URL',
-                'label' => $this->trans('Second facebook Page URL', array(), 'Modules.Facebookbox.Admin'),
+                'label' => $this->l('Second facebook Page URL'),
                 'required' =>true,
             );
 
@@ -226,7 +226,7 @@ class FacebookBox extends Module
                 'type' => 'text',
 
                 'name' => 'FACEBOOKBOX_PAGE_URL',
-                'label' => $this->trans('Facebook Page URL', array(), 'Modules.Facebookbox.Admin'),
+                'label' => $this->l('Facebook Page URL'),
                 'required' =>true,
             ),
             array(
