@@ -71,13 +71,19 @@ class FacebookBox extends Module
         Configuration::updateValue('FACEBOOKBOX_HOOK_POSITION_SECOND_PAGE', 0);
         Configuration::updateValue('FACEBOOKBOX_ACTIVE_SECOND_PAGE', 0);
 
+        if(_PS_VERSION_ < 1.7) {
+            $hookName = 'displayTop';
+        } else {
+            $hookName = 'displayAfterBodyOpeningTag';
+        }
+
         return parent::install() &&
             $this->registerHook('header') &&
             $this->registerHook('backOfficeHeader') &&
             $this->registerHook('displayFooter') &&
             $this->registerHook('displayLeftColumn') &&
             $this->registerHook('displayRightColumn') &&
-            $this->registerHook('displayAfterBodyOpeningTag');
+            $this->registerHook($hookName);
     }
 
     public function uninstall()
@@ -425,6 +431,11 @@ class FacebookBox extends Module
 
 
     public function hookDisplayAfterBodyOpeningTag()
+    {
+        return $this->display(__FILE__, './views/templates/front/javaScriptSDK.tpl');
+    }
+
+    public function hookDisplayTop()
     {
         return $this->display(__FILE__, './views/templates/front/javaScriptSDK.tpl');
     }
