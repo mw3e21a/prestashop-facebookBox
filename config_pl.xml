@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>facebookbox</name>
+    <displayName><![CDATA[Facebook Box]]></displayName>
+    <version><![CDATA[0.6.0]]></version>
+    <description><![CDATA[Facebook plugin allow you to add facebook box to your footer. 
+        Gain the trust of your customers, and social popularity.]]></description>
+    <author><![CDATA[Michał Wilczyński]]></author>
+    <tab><![CDATA[social_networks]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
