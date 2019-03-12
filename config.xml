@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
-	<name>Facebookbox</name>
+	<name>facebookbox</name>
 	<displayName><![CDATA[Facebook Box]]></displayName>
-	<version><![CDATA[0.0.1]]></version>
+	<version><![CDATA[0.6]]></version>
 	<description><![CDATA[Facebook plugin allow you to add facebook box to your footer.
         Gain the trust of your customers, and social popularity.]]></description>
 	<author><![CDATA[Michał Wilczyński]]></author>

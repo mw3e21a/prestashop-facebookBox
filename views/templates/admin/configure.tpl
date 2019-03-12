@@ -24,26 +24,26 @@
 *}
 
 <div class="panel">
-	<h3><i class="icon icon-credit-card"></i> {l s='Facebook Box' mod='FacebookBox'}</h3>
+	<h3><i class="icon icon-credit-card"></i> {l s='Facebook Box' mod='Facebookbox'}</h3>
 	<p>
-		<strong>{l s='Free Social Media plugin for Prestashop' mod='FacebookBox'}</strong><br />
+		<strong>{l s='Free Social Media plugin for Prestashop' mod='facebookbox'}</strong><br />
 		{l s='The best way to incerase your social media popularity. This module
-		 can help you gain the trust of your customers and keep them coming back to your site' mod='FacebookBox'}<br />
-		{l s='Thanks to the Facebook Box plugin you can add social media box to your store footer.' mod='FacebookBox'}
+		 can help you gain the trust of your customers and keep them coming back to your site' mod='facebookbox'}<br />
+		{l s='Thanks to the Facebook Box plugin you can add social media box to your store footer.' mod='facebookbox'}
 	</p>
 	<br />
 	<p>
-		{l s='In the form below you can configure parameters.' mod='FacebookBox'}
+		{l s='In the form below you can configure parameters.' mod='facebookbox'}
 	</p>
 </div>
 
 <div class="panel">
-	<h3><i class="icon icon-tags"></i> {l s='Documentation' mod='FacebookBox'}</h3>
+	<h3><i class="icon icon-tags"></i> {l s='Documentation' mod='facebookbox'}</h3>
 	<p>
-		&raquo; {l s='You can get a PDF documentation to configure this module' mod='FacebookBox'} :
+		&raquo; {l s='You can get a PDF documentation to configure this module' mod='facebookbox'} :
 		<ul>
-			<li><a href="../modules/FacebookBox/facebookbox_doc_en.pdf" target="_blank">{l s='English' mod='FacebookBox'}</a></li>
-			<li><a href="../modules/FacebookBox/facebookbox_doc_pl.pdf" target="_blank">{l s='Polski' mod='FacebookBox'}</a></li>
+			<li><a href="../modules/FacebookBox/facebookbox_doc_en.pdf" target="_blank">{l s='English' mod='facebookbox'}</a></li>
+			<li><a href="../modules/FacebookBox/facebookbox_doc_pl.pdf" target="_blank">{l s='Polski' mod='facebookbox'}</a></li>
 		</ul>
 	</p>
 </div>

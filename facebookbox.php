@@ -100,10 +100,10 @@ class FacebookBox extends Module
     private function postValidation()
     {
         if (!Tools::getValue('FACEBOOKBOX_PAGE_URL')) {
-            $this->errors[] = $this->trans('Facebook Page URL can not be empty', array(), 'Modules.Facebookbox.Admin');
+            $this->errors[] = $this->l('Facebook Page URL can not be empty');
         }
         if (!Tools::getValue('FACEBOOKBOX_SECOND_PAGE_URL') && Configuration::get('FACEBOOKBOX_ACTIVE_SECOND_PAGE')) {
-            $this->errors[] = $this->trans('Second Facebook Page URL can not be empty', array(), 'Modules.Facebookbox.Admin');
+            $this->errors[] = $this->l('Second Facebook Page URL can not be empty');
         }
     }
 
@@ -121,7 +121,7 @@ class FacebookBox extends Module
             if (!count($this->errors)) {
                 $this->postProcess();
 
-                $this->output = $this->displayConfirmation("Success! All data updated.");
+                $this->output = $this->displayConfirmation($this->l("Success! All data updated."));
             } else {
                 $this->output = $this->displayError($this->errors);
             }
@@ -188,7 +188,6 @@ class FacebookBox extends Module
         $secondFanPageHookPosition = array(
              'type' => 'select',
              'name' => 'FACEBOOKBOX_HOOK_POSITION_SECOND_PAGE',
-             'desc' => $this->l('When Automatically adapt box size option is enabled, width is generated automatically.'),
              'label' => $this->l('Select Position of second Facebook Box'),
              'options' => array(
                  'query' =>  array(
