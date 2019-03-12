@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
-	<name>FacebookBox</name>
+	<name>Facebookbox</name>
 	<displayName><![CDATA[Facebook Box]]></displayName>
 	<version><![CDATA[0.0.1]]></version>
 	<description><![CDATA[Facebook plugin allow you to add facebook box to your footer.
