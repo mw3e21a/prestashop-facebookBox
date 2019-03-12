@@ -17,7 +17,6 @@ $_MODULE['<{facebookbox}prestashop>facebookbox_65d1c1bd40a5e3cd394f1c251f04b625'
 $_MODULE['<{facebookbox}prestashop>facebookbox_db0a825b0fff6129456f7bdc60d1d658'] = 'Użyj małego nagłówka';
 $_MODULE['<{facebookbox}prestashop>facebookbox_cc9fc4d8b695d0183ddfdd924646b9a3'] = 'Ukryj zdjęcie w tle';
 $_MODULE['<{facebookbox}prestashop>facebookbox_778667bdba8bc2f576fcb1c83fce8f77'] = 'Pokazuj twarze znajomych';
-$_MODULE['<{facebookbox}prestashop>facebookbox_9c2d868a16d6dad5898f7fe11837de82'] = 'Gdy opcja automatycznego dopasowywania jest włączona, szerokość jest generowana automatycznie.';
 $_MODULE['<{facebookbox}prestashop>facebookbox_f435184b435842aa6bcf2800e7ae3727'] = 'Wybierz pozycję ';
 $_MODULE['<{facebookbox}prestashop>facebookbox_f4f70727dc34561dfde1a3c529b6205c'] = 'Ustawienia';
 $_MODULE['<{facebookbox}prestashop>facebookbox_c9cc8cce247e49bae79f15173ce97354'] = 'Zapisz';
