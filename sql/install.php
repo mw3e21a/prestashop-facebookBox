@@ -24,4 +24,3 @@
  *  @copyright 2019 Michał Wilczyński
  *  @license   MIT, see above
  */
-
