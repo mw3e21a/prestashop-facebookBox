@@ -25,7 +25,7 @@
 *}
 
 <div class="panel">
-	<h3><i class="icon icon-credit-card"></i> {l s='Facebook Box' mod='Facebookbox'}</h3>
+	<h3><i class="icon icon-credit-card"></i> {l s='Facebook Box' mod='facebookbox'}</h3>
 	<p>
 		<strong>{l s='Free Social Media plugin for Prestashop' mod='facebookbox'}</strong><br />
 		{l s='The best way to incerase your social media popularity. This module

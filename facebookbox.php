@@ -326,7 +326,9 @@ class FacebookBox extends Module
             array(
                 'type' => 'select',
                 'name' => 'FACEBOOKBOX_HOOK_POSITION',
-                'desc' => $this->l('When Automatically adapt box size option is enabled, width is generated automatically.'),
+                'desc' => $this->l(
+                    'When Automatically adapt box size option is enabled, width is generated automatically.'
+                ),
                 'label' => $this->l('Select position of Facebook Box'),
                 'options' => array(
                     'query' =>  array(
@@ -446,7 +448,8 @@ class FacebookBox extends Module
     {
         $facebookBoxes = array();
 
-        if (Configuration::get('FACEBOOKBOX_HOOK_POSITION_SECOND_PAGE') == 0 && Configuration::get('FACEBOOKBOX_ACTIVE_SECOND_PAGE') == 1) {
+        if (Configuration::get('FACEBOOKBOX_HOOK_POSITION_SECOND_PAGE') == 0
+            && Configuration::get('FACEBOOKBOX_ACTIVE_SECOND_PAGE') == 1) {
             $facebookBoxes[] = $this->getSmartyVars(Configuration::get('FACEBOOKBOX_SECOND_PAGE_URL'));
         }
         if (Configuration::get('FACEBOOKBOX_HOOK_POSITION') == 0) {
@@ -464,7 +467,8 @@ class FacebookBox extends Module
     {
         $facebookBoxes = array();
 
-        if (Configuration::get('FACEBOOKBOX_HOOK_POSITION_SECOND_PAGE') == 1 && Configuration::get('FACEBOOKBOX_ACTIVE_SECOND_PAGE') == 1) {
+        if (Configuration::get('FACEBOOKBOX_HOOK_POSITION_SECOND_PAGE') == 1
+            && Configuration::get('FACEBOOKBOX_ACTIVE_SECOND_PAGE') == 1) {
             $facebookBoxes[] = $this->getSmartyVars(Configuration::get('FACEBOOKBOX_SECOND_PAGE_URL'));
         }
         if (Configuration::get('FACEBOOKBOX_HOOK_POSITION') == 1) {
@@ -474,7 +478,7 @@ class FacebookBox extends Module
         $this->context->smarty->assign(
             'FacebookBoxes',
             $facebookBoxes
-            );
+        );
 
         return $this->display(__FILE__, './views/templates/front/facebookBox.tpl');
     }
@@ -483,7 +487,8 @@ class FacebookBox extends Module
     {
         $facebookBoxes = array();
 
-        if (Configuration::get('FACEBOOKBOX_HOOK_POSITION_SECOND_PAGE') == 2 && Configuration::get('FACEBOOKBOX_ACTIVE_SECOND_PAGE') == 1) {
+        if (Configuration::get('FACEBOOKBOX_HOOK_POSITION_SECOND_PAGE') == 2
+            && Configuration::get('FACEBOOKBOX_ACTIVE_SECOND_PAGE') == 1) {
             $facebookBoxes[] = $this->getSmartyVars(Configuration::get('FACEBOOKBOX_SECOND_PAGE_URL'));
         }
         if (Configuration::get('FACEBOOKBOX_HOOK_POSITION') == 2) {
@@ -493,7 +498,7 @@ class FacebookBox extends Module
         $this->context->smarty->assign(
             'FacebookBoxes',
             $facebookBoxes
-         );
+        );
 
         return $this->display(__FILE__, './views/templates/front/facebookBox.tpl');
     }
