@@ -29,6 +29,6 @@
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v3.2&appId=2087671461456078&autoLogAppEvents=1';
+        js.src = 'https://connect.facebook.net/{if $language.iso_code =='pl'}pl_PL{else}en_EN{/if}/sdk.js#xfbml=1&version=v3.2&appId=2087671461456078&autoLogAppEvents=1';
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
